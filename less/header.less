@@ -2,12 +2,8 @@
   margin-top: 0;
   max-width: 100%;
   
-  > .container {
-    width: 100%;
-
-    .navbar-brand {
-      margin-left: 0;
-    }
+  .navbar-brand {
+    margin-left: 0;
   }
 }
 
@@ -51,61 +47,59 @@
     margin: 0;
   }
 
-  .navbar-nav {
+  .primary-nav {
     background-color: @brand-primary;
     width: 100%;
     font-size: @font-size-large;
     margin: 0;
+    float: left;
 
-    > .leaf {
-      > a,
-      > a:hover,
-      > a:focus {
-        color: white;
-        background-color: @brand-primary;
-        font-weight: bold;
+    .navbar-nav {
+      .container;
+
+      float: none;
+
+      > .leaf {
+        > a,
+        > a:hover,
+        > a:focus {
+          color: white;
+          background-color: @brand-primary;
+          font-weight: bold;
+        }
       }
-    }
 
-    > .active {
-      > a,
-      > a:hover,
-      > a:focus {
-        color: white;
-        background-color: @text-color;
-        font-weight: bold;
+      > .active {
+        > a,
+        > a:hover,
+        > a:focus {
+          color: white;
+          background-color: @text-color;
+          font-weight: bold;
+        }
       }
     }
   }
 
   .navbar-header {
-    margin: 0;
+    .container;
+
+    float: none;
     padding-bottom: @grid-gutter-width;
 
     .logo {
 
       // Mobile:
         max-width: 35%;
-        padding-left: floor(@grid-gutter-width / 2);
+        padding-left: 0;
       @media (min-width: @screen-xs-min) {
         width: 180px;
-        padding-left: floor(@grid-gutter-width / 2);
         padding-right: @grid-gutter-width;
       }
 
       img {
         width: 100%;
       }
-    }
-  }
-
-  .navbar-header-name {
-    display: inline-block;
-
-    // Mobile and tablet:
-      max-width: 50%;
-    @media (min-width: @screen-sm-min) {
-      max-width: 80%;
     }
   }
 }
