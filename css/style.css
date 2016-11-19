@@ -7586,8 +7586,8 @@ table .checkbox input[type="checkbox"] {
 @media (min-width: 480px) {
   .not-front .region-header form#search-block-form {
     float: right;
-    width: 320px;
-    margin: 10px;
+    width: 280px;
+    margin: 10px 0;
   }
 }
 .logos-live-links .podcasts {
