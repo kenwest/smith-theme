@@ -7502,8 +7502,6 @@ table .checkbox input[type="checkbox"] {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 @media (min-width: 768px) {
   .front .region-header section {
@@ -7532,20 +7530,12 @@ table .checkbox input[type="checkbox"] {
     margin-left: 0;
   }
 }
-.front .region-header .content-search {
-  width: 100%;
-}
-@media (min-width: 768px) {
-  .front .region-header .content-search {
-    width: 50%;
-  }
-}
-.not-front .region-header form#search-block-form {
+.region-header form#search-block-form {
   margin: 20px 0;
   width: 100%;
 }
 @media (min-width: 768px) {
-  .not-front .region-header form#search-block-form {
+  .region-header form#search-block-form {
     float: right;
     width: 280px;
   }

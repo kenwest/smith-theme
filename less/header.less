@@ -135,31 +135,18 @@
 
     section {
       .container;
-
-      margin-top: (2*@line-height-computed);
-      margin-bottom: (2*@line-height-computed);
-    }
-
-    .content-search {
-      // Mobile:
-        width: 100%;
-      @media (min-width: @screen-sm-min) {
-        width: 50%;
-      }
     }
   }
 }
 
-.not-front {
-  .region-header {
-    form#search-block-form {
-      // Mobile:
-        margin: @line-height-computed 0;
-        width: 100%;
-      @media (min-width: @screen-sm-min) {
-        float: right;
-        width: 280px;
-      }
+.region-header {
+  form#search-block-form {
+    // Mobile:
+      margin: @line-height-computed 0;
+      width: 100%;
+    @media (min-width: @screen-sm-min) {
+      float: right;
+      width: 280px;
     }
   }
 }
