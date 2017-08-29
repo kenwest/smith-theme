@@ -6483,8 +6483,8 @@ button.close {
 .front .region-header section:after,
 .block-search:before,
 .block-search:after,
-.block-search form:before,
-.block-search form:after,
+.block-search form#search-block-form:before,
+.block-search form#search-block-form:after,
 .stack:before,
 .stack:after {
   content: " ";
@@ -6510,7 +6510,7 @@ button.close {
 .navbar-default .navbar-header:after,
 .front .region-header section:after,
 .block-search:after,
-.block-search form:after,
+.block-search form#search-block-form:after,
 .stack:after {
   clear: both;
 }
@@ -7584,12 +7584,13 @@ table .checkbox input[type="checkbox"] {
     margin-left: 0;
   }
 }
-.block-search form {
+.block-search form#search-block-form {
   margin-left: -15px;
   margin-right: -15px;
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.block-search form .input-group {
+.block-search form#search-block-form .input-group {
   float: left;
   width: 100%;
   position: relative;
@@ -7598,13 +7599,13 @@ table .checkbox input[type="checkbox"] {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  .block-search form .input-group {
+  .block-search form#search-block-form .input-group {
     float: left;
     width: 33.33333333%;
   }
 }
 @media (min-width: 768px) {
-  .block-search form .input-group {
+  .block-search form#search-block-form .input-group {
     margin-left: 66.66666667%;
   }
 }
