@@ -7531,12 +7531,6 @@ table .checkbox input[type="checkbox"] {
   }
 }
 .front .smith-byline p {
-  float: left;
-  width: 100%;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   background-color: white;
   font-style: italic;
   color: #0b5e88;
@@ -7546,12 +7540,6 @@ table .checkbox input[type="checkbox"] {
   padding: 20px 30px;
   font-size: 24px;
   margin-bottom: 0;
-}
-@media (min-width: 768px) {
-  .front .smith-byline p {
-    float: left;
-    width: 66.66666667%;
-  }
 }
 @media (min-width: 768px) {
   .front .smith-byline p {
