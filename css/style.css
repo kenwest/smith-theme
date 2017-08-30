@@ -8132,14 +8132,6 @@ ul {
   height: 60px;
   font-size: 40px;
 }
-@media (min-width: 768px) {
-  .views-field-field-thumbnail-image i,
-  .views-field-field-is-audio i,
-  .views-field-field-is-text i,
-  .views-field-field-is-video i {
-    padding-top: 10px;
-  }
-}
 .views-field-title,
 .views-field-field-in-activity,
 .views-field-field-speakers,
