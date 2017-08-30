@@ -7358,11 +7358,16 @@ table .checkbox input[type="checkbox"] {
   line-height: 60px;
   padding: 0;
   margin: 0;
-  font-size: 30px;
+  font-size: 24px;
+}
+@media (min-width: 480px) {
+  .navbar-default .navbar-brand {
+    font-size: 36px;
+  }
 }
 @media (min-width: 768px) {
   .navbar-default .navbar-brand {
-    font-size: 36px;
+    font-size: 44px;
   }
 }
 .navbar-default .navbar-collapse {
