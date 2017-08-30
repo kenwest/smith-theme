@@ -8579,6 +8579,12 @@ a.page-civicrm-event .views-field-id:focus {
   }
 }
 /*
+ * Contact form formatting
+ */
+.contact-form .form-item {
+  margin-bottom: 20px;
+}
+/*
  * jPlayer configuration
  */
 .block div.jp-audio {
