@@ -8147,14 +8147,16 @@ ul {
 .views-field-taxonomy-vocabulary-1,
 .views-field-taxonomy-vocabulary-1-1,
 .views-field-field-staff-contact,
-.views-field-body {
+.views-field-body,
+.views-field-summary {
   margin-left: 75px;
 }
 .views-field-taxonomy-vocabulary-1,
 .views-field-field-in-activity {
   margin-bottom: 20px;
 }
-.views-field + .views-field-body {
+.views-field + .views-field-body,
+.views-field + .views-field-summary {
   margin-top: 20px;
 }
 .views-field-taxonomy-vocabulary-1,
