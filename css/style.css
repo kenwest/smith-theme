@@ -8068,10 +8068,20 @@ h3,
 h4,
 h5,
 h6 {
+  margin: 0 0 20px;
+  line-height: 40px;
   color: #0b5e88;
 }
 p {
   margin: 0 0 20px;
+}
+p + h1,
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+p + h6 {
+  margin-top: 40px;
 }
 ul {
   margin-bottom: 0;

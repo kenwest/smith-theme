@@ -9,11 +9,22 @@
  * Generic formatting
  */
 h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 @line-height-computed;
+  line-height: (2*@line-height-computed);
   color: @brand-primary;
 }
 
 p {
   margin: 0 0 @line-height-computed;
+}
+
+p + h1,
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+p + h6 {
+  margin-top: (2*@line-height-computed);
 }
 
 ul {
