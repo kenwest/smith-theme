@@ -8173,10 +8173,6 @@ ul {
   line-height: 40px;
 }
 .views-field-field-date-text {
-  font-size: 12px;
-  line-height: 20px;
-}
-.views-field-field-date-text {
   font-style: italic;
 }
 /*
@@ -8504,13 +8500,6 @@ a.block-system .field-name-field-add-to-calendar .field-item:focus {
 /*
  * CiviCRM Event entity pages
  */
-.page-civicrm-event .views-field-field-date-text {
-  margin-left: 0;
-  line-height: 40px;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 18px;
-}
 .page-civicrm-event .views-field-nothing {
   /* Address */
   color: #333333;
