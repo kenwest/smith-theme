@@ -8244,11 +8244,6 @@ ul {
 .block-system {
   margin-bottom: 40px;
 }
-.block-system .node,
-.block-system .entity,
-.block-system .view {
-  max-width: 720px;
-}
 .block-system .field-name-field-in-activity,
 .block-system .blog_usernames_blog {
   display: none;
