@@ -8246,7 +8246,7 @@ ul {
 .block-system .views-field-body,
 .block-system .views-field-summary {
   font-size: 18px;
-  line-height: 20px;
+  line-height: 40px;
 }
 /*
  * Node and entity formatting
