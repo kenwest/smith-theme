@@ -8238,6 +8238,16 @@ ul {
 .view-reaching-city-civicrm-event-price .views-row + h3 {
   padding: 0;
 }
+.block-system .views-field-field-date-text {
+  font-size: 18px;
+  line-height: 20px;
+}
+.block-system .views-field-field-subtitle,
+.block-system .views-field-body,
+.block-system .views-field-summary {
+  font-size: 18px;
+  line-height: 20px;
+}
 /*
  * Node and entity formatting
  */
