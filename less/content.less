@@ -10,8 +10,15 @@
  */
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 @line-height-computed;
-  line-height: (2*@line-height-computed);
   color: @brand-primary;
+}
+
+h1, h2, h3, h4 {
+  line-height: @line-height-large;
+}
+
+h5, h6 {
+  line-height: @line-height-computed;
 }
 
 p {
@@ -45,16 +52,16 @@ ul {
 .page-header,
 .block-title,
 .views-field-title {
-  line-height: 2*@line-height-computed;
   padding: 0;
   border: 0;
   margin: 0 0 @line-height-computed;
   display: flex;
+  line-height: @line-height-large;
 
   i {
     min-width: @view-thumbnail-width;
-    line-height: 2*@line-height-computed;
     margin-right: floor(@grid-gutter-width / 2);
+    line-height: @line-height-large;
   }
 }
 
@@ -129,7 +136,7 @@ ul {
 .views-field-field-staff-contact,
 .views-field-field-in-activity {
   font-size: @font-size-large;
-  line-height: (2 * @line-height-computed);
+  line-height: @line-height-large;
 }
 
 .views-field-field-date-text {
@@ -169,7 +176,7 @@ ul {
 
   .views-row {
     padding-top: @line-height-computed;
-    line-height: @line-height-computed;
+    line-height: @line-height-large;
     font-size: @font-size-large;
   }
 
@@ -180,16 +187,12 @@ ul {
 
 .front {
   .block-system {
-    .views-field-field-date-text {
-      font-size: @font-size-large;
-      line-height: @line-height-computed;
-    }
-
+    .views-field-field-date-text,
     .views-field-field-subtitle,
     .views-field-body,
     .views-field-summary {
       font-size: @font-size-large;
-      line-height: (2*@line-height-computed);
+      line-height: @line-height-large;
     }
   }
 }
@@ -267,7 +270,7 @@ ul {
   .field-name-field-date-text,
   .entity-property-summary {
     font-size: @font-size-large;
-    line-height: (2 * @line-height-computed);
+    line-height: @line-height-large;
   }
 
   .field-name-field-subtitle,
@@ -357,7 +360,7 @@ ul {
 .page-civicrm-event {
   .views-field-nothing {    /* Address */
     color: @text-color;
-    line-height: @line-height-computed;
+    line-height: @line-height-large;
     font-size: @font-size-large;
   }
 

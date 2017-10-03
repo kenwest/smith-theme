@@ -7753,12 +7753,10 @@ a.link-button:focus {
 .view .view-grouping .view-grouping-header {
   font-size: 24px;
   font-weight: bold;
-  line-height: 40px;
 }
 .view .views-table caption {
   font-size: 18px;
   font-weight: bold;
-  line-height: 40px;
 }
 /*
  * Common block formatting
@@ -8102,8 +8100,17 @@ h4,
 h5,
 h6 {
   margin: 0 0 20px;
-  line-height: 40px;
   color: #0b5e88;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.3333333;
+}
+h5,
+h6 {
+  line-height: 20px;
 }
 p {
   margin: 0 0 20px;
@@ -8128,18 +8135,18 @@ ul {
 .page-header,
 .block-title,
 .views-field-title {
-  line-height: 40px;
   padding: 0;
   border: 0;
   margin: 0 0 20px;
   display: flex;
+  line-height: 1.3333333;
 }
 .page-header i,
 .block-title i,
 .views-field-title i {
   min-width: 60px;
-  line-height: 40px;
   margin-right: 15px;
+  line-height: 1.3333333;
 }
 /*
  * Views
@@ -8205,7 +8212,7 @@ ul {
 .views-field-field-staff-contact,
 .views-field-field-in-activity {
   font-size: 18px;
-  line-height: 40px;
+  line-height: 1.3333333;
 }
 .views-field-field-date-text {
   font-style: italic;
@@ -8233,21 +8240,18 @@ ul {
 }
 .view-reaching-city-civicrm-event-price .views-row {
   padding-top: 20px;
-  line-height: 20px;
+  line-height: 1.3333333;
   font-size: 18px;
 }
 .view-reaching-city-civicrm-event-price .views-row + h3 {
   padding: 0;
 }
-.front .block-system .views-field-field-date-text {
-  font-size: 18px;
-  line-height: 20px;
-}
+.front .block-system .views-field-field-date-text,
 .front .block-system .views-field-field-subtitle,
 .front .block-system .views-field-body,
 .front .block-system .views-field-summary {
   font-size: 18px;
-  line-height: 40px;
+  line-height: 1.3333333;
 }
 /*
  * Node and entity formatting
@@ -8374,7 +8378,7 @@ a.block-system .field-name-field-topics .field-item:focus {
 .block-system .field-name-field-date-text,
 .block-system .entity-property-summary {
   font-size: 18px;
-  line-height: 40px;
+  line-height: 1.3333333;
 }
 .block-system .field-name-field-subtitle,
 .block-system .field-name-field-date-text,
@@ -8545,7 +8549,7 @@ a.block-system .field-name-field-add-to-calendar .field-item:focus {
 .page-civicrm-event .views-field-nothing {
   /* Address */
   color: #333333;
-  line-height: 20px;
+  line-height: 1.3333333;
   font-size: 18px;
 }
 .page-civicrm-event .view-content h3 {
