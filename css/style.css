@@ -8297,16 +8297,6 @@ ul {
   max-width: 100%;
   height: auto;
 }
-.block-system .field-name-field-civievent .field-item,
-.block-system .field-name-field-add-to-calendar .field-item {
-  font-size: 14px;
-}
-@media (min-width: 480px) {
-  .block-system .field-name-field-civievent .field-item,
-  .block-system .field-name-field-add-to-calendar .field-item {
-    font-size: 18px;
-  }
-}
 .block-system .comment-add {
   margin-bottom: 20px;
 }
@@ -8428,6 +8418,16 @@ a.block-system .field-name-field-add-to-calendar .field-item:focus {
   font-weight: normal;
   color: #0b5e88;
   background: white;
+}
+.block-system .field-name-field-civievent .field-item,
+.block-system .field-name-field-add-to-calendar .field-item {
+  font-size: 14px;
+}
+@media (min-width: 480px) {
+  .block-system .field-name-field-civievent .field-item,
+  .block-system .field-name-field-add-to-calendar .field-item {
+    font-size: 18px;
+  }
 }
 .block-system .field-name-field-civievent + .field-name-field-add-to-calendar {
   display: none;
