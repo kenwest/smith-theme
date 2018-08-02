@@ -8229,7 +8229,8 @@ ul {
 }
 .page-header,
 .block-title,
-.views-field-title {
+.views-field-title,
+.views-field-field-title {
   padding: 0;
   border: 0;
   margin: 0 0 20px;
@@ -8238,7 +8239,8 @@ ul {
 }
 .page-header i,
 .block-title i,
-.views-field-title i {
+.views-field-title i,
+.views-field-field-title i {
   min-width: 60px;
   margin-right: 15px;
   line-height: 1.3333333;
@@ -8283,6 +8285,7 @@ ul {
   font-size: 40px;
 }
 .views-field-title,
+.views-field-field-title,
 .views-field-field-in-activity,
 .views-field-field-speakers,
 .views-field-field-date-text,
